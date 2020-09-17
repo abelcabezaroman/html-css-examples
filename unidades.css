@@ -1,0 +1,25 @@
+html{
+    font-size: 16px;
+}
+
+.u-font-size-2rem{
+    font-size: 2rem;
+}
+
+.u-font-size-05rem{
+    font-size: 2rem;
+}
+
+.u-font-size-2em{
+    font-size: 2em;
+}
+
+.b-box{
+    height: 50vh;
+    width: 50vw;
+    background-color: lightgreen;
+}
+
+body{
+    margin: 0;
+}
