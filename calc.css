@@ -1,0 +1,17 @@
+.box-left{
+width: 200px;
+height: 500px;
+background-color: red;
+}
+
+.box-right{
+    width: calc(100% - 200px - 10px);
+    height: 500px;
+    background-color: lightgreen;
+    margin-left: 10px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}

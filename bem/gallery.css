@@ -1,0 +1,48 @@
+img {
+    max-width: 100%;
+}
+
+figure{
+    margin: 0
+}
+
+.b-gallery{
+    display: block;
+}
+
+.b-gallery__item{
+    position: relative;
+}
+
+.b-gallery__text{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background-color: #0000006e;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: Arial;
+}
+.b-gallery__text--right{
+    left: auto;
+    right: 0;
+}
+.b-gallery__text--center{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom:auto;
+}
+.b-gallery__text--top-left{
+    top: 20px;
+    bottom: auto;
+}
+.b-gallery__text--top-right{
+    left: auto;
+    right: 0;
+    top: 20px;
+    bottom: auto;
+}
+.b-gallery__text--big{
+    font-size: 24px;
+}
