@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'GOT';
+    src: url('assets/fonts/Game\ of\ Thrones.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.u-got{
+    font-family: 'GOT', sans-serif;
+    font-size: 2rem
+}
