@@ -1,0 +1,40 @@
+a:visited{
+    color: red;
+}
+
+a{
+    color: blue
+}
+
+a:hover{
+    color: lightgreen;
+    font-size: 4rem;
+}
+
+
+.divhover{
+    width: 10rem;
+    height: 10rem;
+    background-color: lightgreen;
+}
+
+.divhover:hover p{
+    color: blue;
+}
+
+.showinhover{
+    display: none
+}
+
+.divhover:hover .showinhover{
+    display: block;
+}
+
+button:active{
+    background-color: red;
+}
+
+
+input:focus, button:focus {
+    color: red
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+<form method="post" action="/register">
+    <h3>Formulario</h3>
+    <div>
+        <!-- Nombre de usuario. Campo obligatorio, entre 5-40 carácteres -->
+        <label for="nombre">Usuario *:</label>
+        <input class="is-valid" type="text" name="nombre" id="nombre" placeholder="Nombre de usuario" minlength="5"
+               maxlength="40" required>
+    </div>
+    <div>
+        <!-- Contraseña. Campo obligatorio, mínimo 11 carácteres -->
+        <label for="pass">Password *:</label>
+        <input type="password" name="pass" id="pass" placeholder="Contraseña" minlength="11" required>
+    </div>
+    <div>
+        <label for="years">Años *:</label>
+        <input type="number" name="years" id="years" placeholder="Años" min="18" step="1" max="100" required>
+    </div>
+
+    <div>
+        <label for="email">Mail *:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>
+
+    <p>Complete la información para su registro</p>
+    <button type="submit">Registrarse</button>
+</form>
+</body>
+</html>

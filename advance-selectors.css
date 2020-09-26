@@ -1,0 +1,16 @@
+.father > span {
+color: red;
+}
+
+span{
+    color:blue
+}
+
+.node + .nodeplus{
+    color: aquamarine;
+}
+
+.nodevigu ~ .nodeviguri{
+    color: blueviolet;
+}
+

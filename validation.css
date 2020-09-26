@@ -1,0 +1,20 @@
+/*input:valid {*/
+/*    border-color: lightgreen;*/
+/*}*/
+
+/*input:invalid {*/
+/*    border-color: red;*/
+/*}*/
+
+.is-valid:invalid{
+    border-color: red;
+}
+
+.is-valid:valid{
+    border-color: lightgreen;
+}
+
+input[type="text"]{
+    background-color: #333333;
+    color: #FFFFFF;
+}

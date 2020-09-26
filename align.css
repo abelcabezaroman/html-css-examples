@@ -1,0 +1,17 @@
+.u-text-align-center{
+    text-align: center;
+}
+
+.u-text-align-left{
+    text-align: left;
+}
+
+.u-text-align-right{
+    text-align: right;
+}
+
+button{
+    width: 200px;
+    padding: 20px;
+    border: 4px solid #333333;
+}
