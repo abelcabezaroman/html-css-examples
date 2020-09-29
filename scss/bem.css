@@ -1,0 +1,34 @@
+.b-header {
+  display: block;
+}
+
+.b-header__logo {
+  font-size: 24px;
+}
+
+.b-header__logo--big {
+  font-size: 40px;
+}
+
+.b-header__search {
+  border: 2px solid;
+}
+
+.b-header--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.b-footer {
+  display: block;
+}
+
+.b-btn {
+  padding: 10px;
+}
+
+.b-btn--big {
+  padding: 24px;
+}
+/*# sourceMappingURL=bem.css.map */
